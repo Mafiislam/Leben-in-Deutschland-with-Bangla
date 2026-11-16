@@ -4,6 +4,7 @@ A free practice site for the German citizenship test (Einbürgerungstest, "Leben
 
 * 300 general questions and 160 state questions (10 for each of the 16 Bundesländer)
 * Correct answers and a short explanation for each question, in all three languages
+* After you pick an answer, every option gets a short note on why it is right or wrong (English for now, German and Bangla still to come)
 * Switch each language on or off. The interface is available in German, English and Bangla
 * Study mode with search and "mark as learned"
 * Practice quiz with instant feedback and a list of your mistakes
@@ -25,6 +26,7 @@ Then open `http://localhost:8000`. To publish it, enable GitHub Pages for this r
 ```
 data/base.json            German and English text, correct answers, images
 translations/bn/*.json    Bangla: question, four options, explanation
+translations/oe/<lang>/*.json  Per-option notes: {"<id>": ["note A", "B", "C", "D"]}, one file set per language
 scripts/merge_bn.py       merges both into data/questions.json (used by the site)
 scripts/check_bn.py       checks that every translation file is complete and valid
 scripts/gen_states_bn.py  builds the Bangla for the state questions from reviewed templates

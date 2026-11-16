@@ -1,0 +1,20 @@
+{
+"21": [
+"Image 1 shows the federal eagle on a shield, the coat of arms of the Federal Republic.",
+"Image 2 is the Chi-Rho, an early Christian symbol. It is not a coat of arms of Germany.",
+"Image 3 is the cross of the Bundeswehr. It marks the army, not the state.",
+"Image 4 is the emblem of the former GDR with hammer, compass and wreath of grain."
+],
+"130": [
+"Ballot 1 is valid. It has one cross for a candidate (first vote) and one cross for a party list (second vote).",
+"Ballot 2 is invalid. It has no first vote and two crosses in the second vote.",
+"Ballot 3 is invalid. It has two crosses in the first vote and none in the second vote.",
+"Ballot 4 is invalid. It has three crosses in the first vote and none in the second vote."
+],
+"209": [
+"Image 1 is the federal eagle, the coat of arms of today's Federal Republic.",
+"Image 2 is the Chi-Rho, an early Christian symbol. It is not the GDR coat of arms.",
+"Image 3 is the cross of the Bundeswehr. The GDR army used other signs.",
+"Image 4 shows hammer, compass and a wreath of grain. This was the coat of arms of the GDR."
+]
+}

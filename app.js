@@ -130,6 +130,14 @@
       `<p class="t ${i === 0 ? 'main' : 'alt'}" lang="${l}">${esc(o[l])}</p>`).join('');
   }
 
+  /** Short note for one answer option (why it is right or wrong), in every active language. */
+  function noteBlock(q, i, good) {
+    let ls = LANGS.filter(l => prefs.langs.includes(l) && q['oe_' + l] && q['oe_' + l][i]);
+    if (!ls.length && q.oe_en && q.oe_en[i]) ls = ['en'];   // fall back to English until other languages exist
+    const parts = ls.map((l, k) => `<span class="n ${k === 0 ? 'main' : 'alt'}" lang="${l}">${esc(q['oe_' + l][i])}</span>`);
+    return parts.length ? `<div class="note ${good ? 'good' : 'bad'}">${parts.join('')}</div>` : '';
+  }
+
   /* ---------- question card ---------- */
   function qCard(q, opt) {
     opt = opt || {};
@@ -141,6 +149,7 @@
     let h = `<article class="q" id="q-${esc(q.id)}"><div class="q-head"><span>${label}</span>${learnedBtn}</div>`;
     if (q.image) h += `<img class="qimg" src="${esc(q.image)}" alt="${esc(t('img'))}" loading="lazy">`;
     h += `<div class="q-text">${textBlock(q)}</div><ul class="opts">`;
+    const showNotes = opt.showExp !== false && (opt.feedback || opt.reviewMode || (reveal && !opt.selectable && opt.picked == null));
     q.opts.forEach((o, i) => {
       let cls = '';
       if (opt.picked != null) {
@@ -149,7 +158,7 @@
       } else if (reveal && !opt.selectable && i === q.correct) cls = 'correct';
       if (opt.reviewMode) { if (i === q.correct) cls = 'correct'; else if (i === opt.picked) cls = 'wrong'; }
       const tag = opt.selectable && !opt.locked ? 'button' : 'div';
-      h += `<li><${tag} class="opt ${cls}" ${tag === 'button' ? `data-opt="${i}" type="button"` : ''}><span class="k">${letters[i]}</span><span>${optBlock(o)}</span></${tag}></li>`;
+      h += `<li><${tag} class="opt ${cls}" ${tag === 'button' ? `data-opt="${i}" type="button"` : ''}><span class="k">${letters[i]}</span><span>${optBlock(o)}</span></${tag}>${showNotes ? noteBlock(q, i, i === q.correct) : ''}</li>`;
     });
     h += '</ul>';
     if (opt.showExp !== false && (reveal || opt.feedback || opt.reviewMode)) {
