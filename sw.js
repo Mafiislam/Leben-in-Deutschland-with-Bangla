@@ -1,5 +1,5 @@
 // Offline cache. Bump CACHE when any file changes.
-const CACHE = 'lid-bn-v1';
+const CACHE = 'lid-bn-v2';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'data/questions.json',
   'fonts/noto-sans-bengali-bengali-400-normal.woff2', 'fonts/noto-sans-bengali-bengali-600-normal.woff2',
   'fonts/noto-sans-bengali-bengali-700-normal.woff2', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-180.png'];

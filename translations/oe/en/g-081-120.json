@@ -1,0 +1,242 @@
+{
+"81": [
+"The Bundesrat represents the states. It does not elect the Chancellor.",
+"The Federal Convention only elects the Federal President.",
+"The people vote for parliament, not directly for the Chancellor.",
+"The Bundestag elects the Chancellor."
+],
+"82": [
+"The President of the Bundestag leads parliament, not the cabinet.",
+"The Federal President is head of state. He or she does not lead the cabinet.",
+"The Chancellor leads the cabinet and sets the main policy lines.",
+"The head of the Bundesrat does not lead the federal cabinet."
+],
+"83": [
+"Germans do not vote for the Chancellor directly.",
+"The Federal Convention only elects the Federal President.",
+"The Bundestag elects the Chancellor.",
+"The government cannot elect its own head. Parliament does."
+],
+"84": [
+"The Chancellor and the government govern. The President does not.",
+"Parliament drafts and passes laws, not the President.",
+"The Federal President mainly represents the country at home and abroad.",
+"Courts, above all the Constitutional Court, watch over the laws."
+],
+"85": [
+"The Bundestag members are a separate body.",
+"Federal ministers do not sit in the Bundesrat as a group.",
+"The Bundesrat consists of members of the state governments.",
+"Party members do not form the Bundesrat."
+],
+"86": [
+"The Federal Convention elects the Federal President.",
+"The Bundesrat takes part in the Convention, but it does not elect alone.",
+"The Bundestag only sends members to the Convention.",
+"The Constitutional Court does not elect the President."
+],
+"87": [
+"The Chancellor is head of government, not head of state.",
+"The Federal President is the head of state.",
+"The head of the Bundesrat is not the head of state.",
+"The head of the Bundestag is not the head of state."
+],
+"88": [
+"The opposition controls and criticises the government.",
+"The Chancellor chooses ministers. The opposition does not.",
+"The states decide who sits in the Bundesrat.",
+"The state parliaments choose their heads of government."
+],
+"89": [
+"An association is a club, not a group in parliament.",
+"The Council of Elders is a committee that plans the work of the Bundestag.",
+"The members of one party in parliament form a parliamentary group (Fraktion).",
+"The opposition is every group outside the government."
+],
+"90": [
+"The Bundesrat is how the states take part in federal laws.",
+"The Federal Convention only elects the Federal President.",
+"The Bundestag is the people's chamber, not the states' chamber.",
+"The federal government is not the states' voice."
+],
+"91": [
+"A change in a state does not change the Bundestag majority.",
+"New parties in the Bundesrat do not make governing easier.",
+"State governments sit in the Bundesrat. A new majority there can block the federal government.",
+"The wealth of a state does not decide this."
+],
+"92": [
+"CSU does not mean Christian Secure Union.",
+"CSU does not mean Christian South German Union.",
+"CSU does not stand for an association of entrepreneurs.",
+"CSU means Christian Social Union. It runs only in Bavaria."
+],
+"93": [
+"More second votes mean more seats in the Bundestag.",
+"The two votes are separate. Second votes do not reduce first votes.",
+"Direct candidates depend on first votes, not on second votes.",
+"A strong result does not raise the risk of a coalition in this way."
+],
+"94": [
+"Sixteen is allowed in some state and local elections, but not in federal elections.",
+"The minimum age for the Bundestag election is 18.",
+"The age is lower than 21.",
+"The age is lower than 23."
+],
+"95": [
+"Voting is not compulsory in Germany, and children cannot vote.",
+"Most children must go to school. This is compulsory schooling.",
+"Confidentiality is not a duty that applies to most children.",
+"Religion is not compulsory. Parents may even opt their child out until 14."
+],
+"96": [
+"Benefits are not cut for this offence.",
+"Community service is not the stated punishment.",
+"Holocaust denial is a crime in Germany.",
+"The law allows prison up to five years or a fine (incitement to hatred)."
+],
+"97": [
+"Employees pay social insurance automatically from their pay.",
+"Social welfare is paid out by the state. Workers do not pay it.",
+"Child benefit is money you receive, not money you pay.",
+"Housing benefit is money you may receive, not money you pay."
+],
+"98": [
+"If enough members change groups, the government can lose its majority.",
+"Members who switch can still take part in sessions.",
+"The Federal President has no say in this.",
+"Voters do not vote again because a member changes groups."
+],
+"99": [
+"Employers and employees share the contributions.",
+"Employers pay a share as well.",
+"Not all citizens pay. It depends on employment and income.",
+"Employees pay a share as well."
+],
+"100": [
+"Statutory pension insurance is part of social insurance.",
+"Life insurance is private. It is not statutory.",
+"Unemployment insurance is part of social insurance.",
+"Long-term care insurance is part of social insurance."
+],
+"101": [
+"Unions are not groups for young people.",
+"Trade unions represent employees.",
+"Unions are not mainly for retirees.",
+"Employers have their own associations."
+],
+"102": [
+"The Federal Eagle is a symbol, not an award.",
+"The Federal Cross of Merit honours special achievements.",
+"It is not a German award.",
+"That title belonged to the GDR."
+],
+"103": [
+"CDU and CSU are sister parties. Together they are not called a traffic light.",
+"The traffic light coalition means SPD (red), FDP (yellow) and Greens (green).",
+"The CSU does not join with the Linke and the Greens.",
+"CDU and SPD together form a grand coalition."
+],
+"104": [
+"Long illness can be a lawful reason in some cases.",
+"Being often late can be a lawful reason.",
+"Private business at work time can be a lawful reason.",
+"Pregnancy is protected. A woman must not be dismissed because she expects a child."
+],
+"105": [
+"Voters may bring help, but this is not the main task of election helpers.",
+"The notifications are sent by the authorities before the election.",
+"Results go to the media through the election office, not through helpers.",
+"Election helpers count the votes after the polls close."
+],
+"106": [
+"Voters may ask for help, but this is not the helpers' main task.",
+"The authorities send these notices, not the helpers.",
+"The election office passes results on, not the helpers.",
+"Election helpers count the votes after the polls close."
+],
+"107": [
+"The term is four years, not two.",
+"The Bundestag is elected for four years.",
+"The term is four years, not six.",
+"The term is four years, not eight."
+],
+"108": [
+"Living in Germany is not enough. You must be a citizen.",
+"German citizens aged 18 or over may vote.",
+"Years of residence do not matter. Citizenship does.",
+"The age limit is 18, not 21."
+],
+"109": [
+"Elections happen every four years, not three.",
+"Federal elections take place every four years.",
+"Elections happen every four years, not five.",
+"Elections happen every four years, not six."
+],
+"110": [
+"The term is four years, not two.",
+"The term is four years, not three.",
+"The Bundestag is elected for four years.",
+"The term is four years, not five."
+],
+"111": [
+"Criticising Israel's policy is allowed.",
+"Showing an Israeli flag on private property is allowed.",
+"Discussing Israel's policy is allowed.",
+"Calling for the destruction of Israel is a crime in Germany."
+],
+"112": [
+"Special is not one of the election principles.",
+"Elections are secret, so nobody knows how you voted.",
+"Elections are not tied to a profession.",
+"Elections do not depend on gender."
+],
+"113": [
+"The party with the most votes wins.",
+"Votes of men alone do not decide the winner.",
+"Votes of workers alone do not decide the winner.",
+"First votes for a candidate do not decide who wins overall."
+],
+"114": [
+"Voting is not an obligation in Germany.",
+"Voting is a right of citizens.",
+"Voting is not forced.",
+"Voting is a right, not a burden."
+],
+"115": [
+"Being elected is the passive right to vote.",
+"Nobody must vote.",
+"The active right to vote means you may vote.",
+"You do not have to attend the vote count."
+],
+"116": [
+"That is not a term in electoral law.",
+"That is not a term in electoral law.",
+"That is not a term in electoral law.",
+"The right to vote is called the active voting right."
+],
+"117": [
+"The threshold is higher than 3%.",
+"The threshold is higher than 4%.",
+"A party needs at least 5% of the second votes.",
+"The threshold is lower than 6%."
+],
+"118": [
+"Makkabi clubs are not only for Germans.",
+"They are not only for Israelis.",
+"They are not only for religious people.",
+"All people can join a Makkabi club."
+],
+"119": [
+"Convicted people are not all excluded from voting.",
+"Employers do not have to give time off for this reason in this way. That is not what free means.",
+"Free means everyone decides without pressure whether and whom to vote for.",
+"Where to vote is not the meaning of free."
+],
+"120": [
+"Census suffrage ties voting to wealth. It ended long ago.",
+"The three-class system ended in 1918.",
+"Germany combines first votes (majority) and second votes (proportional).",
+"Women have had the vote since 1918, so it is no longer men only."
+]
+}

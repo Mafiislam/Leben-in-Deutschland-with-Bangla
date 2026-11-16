@@ -94,6 +94,11 @@ button.opt:hover:not([disabled]) { border-color: var(--primary); background: var
 .opt.picked { border-color: var(--primary); background: var(--primary-soft); }
 .opt.picked .k { background: var(--primary); border-color: var(--primary); color: #fff; }
 .opt[disabled] { cursor: default; }
+.note { margin: .3rem .2rem 0 2.6rem; padding-left: .7rem; border-left: 3px solid var(--line); font-size: .9rem; }
+.note.good { border-left-color: var(--ok); }
+.note.bad { border-left-color: var(--bad); }
+.note .n { display: block; }
+.note .n.alt { color: var(--muted); font-size: .95em; margin-top: .15rem; }
 .exp { margin-top: .8rem; padding: .7rem .9rem; background: var(--warn-soft); border-radius: .8rem; font-size: .95rem; }
 .exp .t + .t { margin-top: .5rem; }
 .exp-title { font-weight: 700; font-size: .85rem; margin-bottom: .25rem; }

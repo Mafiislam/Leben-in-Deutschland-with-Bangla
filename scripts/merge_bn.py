@@ -24,6 +24,14 @@ for q in base['questions']:
         for o, v in zip(q['opts'], t['o']): o['bn'] = v
     q['exp_bn'] = t.get('x', '')
     q['opts'] = q['opts']
+# Per-option notes (why each answer is right or wrong): translations/oe/<lang>/*.json = {"<id>": ["note A", "B", "C", "D"]}
+for lang in ('en', 'de', 'bn'):
+    oe = {}
+    for f in sorted(glob.glob(f'translations/oe/{lang}/*.json')):
+        oe.update(json.load(open(f, encoding='utf-8')))
+    for q in base['questions']:
+        if q['id'] in oe: q['oe_' + lang] = oe[q['id']]
+    print('option notes', lang, len(oe))
 json.dump(base, open('data/questions.json', 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 print('merged', len(tr), 'translations; questions still without Bangla:', len(missing))
 if '--strict' in sys.argv and missing: print(missing[:20]); sys.exit(1)
